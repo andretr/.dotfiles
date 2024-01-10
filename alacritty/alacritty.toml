@@ -1,0 +1,28 @@
+live_config_reload = true
+import = [
+    "~/.config/alacritty/themes/themes/tokyo-night.toml"
+]
+
+[env]
+LANG = "en_US.UTF-8"
+LC_CTYPE = "en_US.UTF-8"
+TERM = "alacritty"
+
+[font]
+size = 13.0
+
+[font.normal]
+family = "JetBrainsMonoNLNerdFont"
+style = "Regular"
+
+[scrolling]
+history = 20000
+
+[window]
+decorations = "full"
+dynamic_title = true
+opacity = 0.9
+
+[window.padding]
+x = 2
+y = 2
